@@ -1,0 +1,15 @@
+{
+  "name": "quick_services",
+  "version": "1.0.0",
+  "description": "Frappe App Quick Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd quickservices && yarn install",
+    "dev": "cd quickservices && yarn dev",
+    "build": "cd quickservices && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:QS-.YYYY.-.DD.-.MM.-.######",
+ "creation": "2024-11-20 22:21:16.857227",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_information_section",
+  "customer_name",
+  "column_break_fmwm",
+  "phone_number",
+  "amended_from",
+  "laundry_request_information_section",
+  "column_break_gxnj",
+  "date_of_delivery",
+  "time_to_deliver",
+  "cleaning_method",
+  "column_break_ivcz",
+  "location_of_delivery",
+  "section_break_ybyu",
+  "laundry_request_items"
+ ],
+ "fields": [
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Laundry Request",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_fmwm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ybyu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "laundry_request_items",
+   "fieldtype": "Table",
+   "label": "Laundry Request Items",
+   "options": "Laundry Request Items"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "customer_information_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Information"
+  },
+  {
+   "fieldname": "laundry_request_information_section",
+   "fieldtype": "Section Break",
+   "label": "Laundry Request Information"
+  },
+  {
+   "fieldname": "date_of_delivery",
+   "fieldtype": "Date",
+   "label": "Date of Delivery"
+  },
+  {
+   "fieldname": "column_break_gxnj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_to_deliver",
+   "fieldtype": "Time",
+   "label": "Time to Deliver"
+  },
+  {
+   "fieldname": "column_break_ivcz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "location_of_delivery",
+   "fieldtype": "Long Text",
+   "label": "Location of Delivery"
+  },
+  {
+   "fieldname": "cleaning_method",
+   "fieldtype": "Select",
+   "label": "Cleaning Method"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-11-20 22:49:55.418257",
+ "modified_by": "Administrator",
+ "module": "Quick Services",
+ "name": "Laundry Request",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
